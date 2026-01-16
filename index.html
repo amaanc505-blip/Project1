@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   <center>
+   
     
     <p>
-    <h1>Welcome to My Website</h1>
+    <h1>Muhammand Sanan Ghumman</h1>
     </p>
-   </center>
+    <button onclick="changeColor()">Chang Themes</button>
+    <p><a href="colors.html">View All Colors</a></p>
+    <div class="box">This is a box with some content.
+        <div class="inner-box">This is an inner box.</div>
+    </div>
+    <script>
+        let colors = ['lightblue', 'yellow', 'green', 'purple', 'orange', 'red', 'blue', 'pink', 'cyan', 'lime', 'brown', 'teal', 'magenta', 'silver', 'gold'];
+        let index = 0;
+        function changeColor() {
+            document.body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+        }
+    </script>
+   
 </body>
 </html>

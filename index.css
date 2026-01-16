@@ -1,3 +1,37 @@
-h1 {
-    color: blue;
+body {
+    background-color: ;
 }
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+.inner-box {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+    background-color: lightgray;
+    text-align: center;
+}
+    
